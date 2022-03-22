@@ -1,22 +1,19 @@
-# Hands-on-Sessions-of-Data-Warehousing-and-Business-Intelligence-Course
+# Hands-on Session 1: DW&BI Demo System With PostgreSQL and Penhato
 This repository contains the instructions of the hands-on sessions of the DW&amp;BI course.
 
 ## Learning Objectives: Gain hands-on experience in building a DW&BI project and conducting OLAP analysis using PostgreSQL and Pentaho.
-- (1) Learn how to create star schema with fact tables and dimension tables using Pentaho (PDI);
-- (2) Learn how to create OLAP cube using Pentaho Schema Workbench (PSW);
-- (3) Learn how to conduct OLAP analysis using Saiku Analytics tool in Pentaho Server;
-- (4) Learn how to conduct OLAP analysis in PostgreSQL. 
+- Learn how to create star schema with fact tables and dimension tables using Pentaho (PDI);
+- Learn how to create OLAP cube using Pentaho Schema Workbench (PSW);
+- Learn how to conduct OLAP analysis using Saiku Analytics tool in Pentaho Server;
+- Learn how to conduct OLAP analysis in PostgreSQL. 
 
-
-# Hands-On Session 1 - DW&BI Demo System With PostgreSQL and Penhato 
 
 ## Software Requirements
-
-**1. Install a database server (PostgreSQL)**.
+**1. Install the PostgreSQL software**.
 **2. Install the community edition of Pentaho:**
 - Pentaho Server
 - Pentaho Data Integration (PDI)
-- Pentao Report Designer (PRD)
+- Pentaho Schema Workbench (PSW)
 
 ## PostgreSQL Installation
 Please refer to the following links to install PostgreSQL database:
