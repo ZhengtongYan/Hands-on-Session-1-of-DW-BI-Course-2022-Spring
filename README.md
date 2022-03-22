@@ -27,3 +27,5 @@ https://www.postgresqltutorial.com/install-postgresql-macos/
 Please refer to the two pdf documents about downloading and installing Pentaho software in the Installation Guide folder:
 - Pentaho Installation Guide.pdf
 - Pentaho Installation Problems.pdf
+
+I have recorded a video to introduce how to download and install the software: https://www.youtube.com/watch?v=--afzrAZjyc
