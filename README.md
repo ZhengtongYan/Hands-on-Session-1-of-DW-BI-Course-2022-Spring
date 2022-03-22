@@ -23,4 +23,7 @@ https://www.postgresqltutorial.com/install-postgresql-macos/
 - 2.1 Pentaho Server
 - 2.2 Pentaho Data Integration (PDI)
 - 2.3 Pentaho Schema Workbench (PSW)
-Please refer to the pdf documents about downloading and installing Pentaho software in the 
+- 
+Please refer to the two pdf documents about downloading and installing Pentaho software in the Installation Guide folder:
+- Pentaho Installation Guide.pdf
+- Pentaho Installation Problems.pdf
