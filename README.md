@@ -1,7 +1,8 @@
 # Hands-on Session 1: DW&BI Demo System With PostgreSQL and Penhato
 This repository contains the instructions of the hands-on sessions of the DW&amp;BI course.
 
-## Learning Objectives: Gain hands-on experience in building a DW&BI project and conducting OLAP analysis using PostgreSQL and Pentaho.
+## Learning Objectives
+Gain hands-on experience in building a DW&BI project and conducting OLAP analysis using PostgreSQL and Pentaho.
 - Learn how to create star schema with fact tables and dimension tables using Pentaho (PDI);
 - Learn how to create OLAP cube using Pentaho Schema Workbench (PSW);
 - Learn how to conduct OLAP analysis using Saiku Analytics tool in Pentaho Server;
