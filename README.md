@@ -10,12 +10,14 @@ This repository contains the instructions of the hands-on sessions of the DW&amp
 
 ## Software Requirements
 **1. Install the PostgreSQL software**.
-**2. Install the community edition of Pentaho:**
-- Pentaho Server
-- Pentaho Data Integration (PDI)
-- Pentaho Schema Workbench (PSW)
 
-## PostgreSQL Installation
+**2. Install the community edition of Pentaho:**
+- 2.1 Pentaho Server
+- 2.2 Pentaho Data Integration (PDI)
+- 2.3 Pentaho Schema Workbench (PSW)
+
+## Step1: Software Installation
+### 1.PostgreSQL Installation
 Please refer to the following links to install PostgreSQL database:
 * Install PostgreSQL on Windows: 
 https://www.postgresqltutorial.com/install-postgresql/
@@ -26,25 +28,24 @@ https://www.postgresqltutorial.com/install-postgresql-macos/
 
 
 
-## Penhato Installation
-**1.Pentaho Server Installation**
+### 2.Penhato Installation
+**2.1 Pentaho Server Installation**
 Please refer to the document about downloading and installing Pentaho software:
 
 
-**2.Pentaho Data Integration Installation**
+**2.2 Pentaho Data Integration Installation**
 
 
-**3.Pentaho Report Designer Installation**
+**2.3 Pentaho Report Designer Installation**
 
-## Download and Import the Dataset into PostgreSQL
-**1.Download the Unibench Dataset**
-
-**2.Imort into PostgreSQL**
+## Step2: Download the dataset
 
 
 
 
-## Data Integration Demo
+
+## Step3: ETL process
+ Data Integration Demo
 
 
 
