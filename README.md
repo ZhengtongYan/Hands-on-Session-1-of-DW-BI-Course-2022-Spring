@@ -174,24 +174,16 @@ Please use two different methods:
 
 
 ## **Some Useful Links**
-**1. Pentaho documentation:**
-https://help.hitachivantara.com/Documentation/Pentaho/9.2
+[**1. Pentaho documentation**](https://help.hitachivantara.com/Documentation/Pentaho/9.2)
 
-**2. Multidimensional Data Modeling in Pentaho**
-https://help.hitachivantara.com/Documentation/Pentaho/9.2/Work_with_data/Multidimensional_Data_Modeling_in_Pentaho  
+[**2. Multidimensional Data Modeling in Pentaho**](https://help.hitachivantara.com/Documentation/Pentaho/9.2/Work_with_data/Multidimensional_Data_Modeling_in_Pentaho )
+ 
+[**3. How to Design a Mondrian Schema**](http://www-master.ufr-info-p6.jussieu.fr/2009/Ext/naacke/mondrian/doc/schema.html#Star_schemas)
 
-**3. How to Design a Mondrian Schema**
-http://www-master.ufr-info-p6.jussieu.fr/2009/Ext/naacke/mondrian/doc/schema.html#Star_schemas
+[**4. Understanding Pentaho Data Integration(PDI)**](https://www.youtube.com/watch?v=J8NbYQaQiPo&t=4660s)
 
-**4. Some Tutorial Videos for Pentaho**
+[**5. Using Pentaho Schema Workbench**](https://www.youtube.com/watch?v=Tqw3oOk5jsM&list=PLIS-R80eiu1snl5wW893-BLiE0yDVhQAe)
 
-- Understanding Pentaho Data Integration(PDI) | Pentaho Data Integration Tutorial | Edureka https://www.youtube.com/watch?v=J8NbYQaQiPo&t=4660s
-- Using Pentaho Schema Workbench https://www.youtube.com/watch?v=Tqw3oOk5jsM&list=PLIS-R80eiu1snl5wW893-BLiE0yDVhQAe
+[**6. GROUPING SETS, CUBE, ROLLUP, and Window Function in PostgreSQL**](https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUPING-SETS)
 
-
-**5. GROUP BY, GROUPING SETS, CUBE, ROLLUP, and Window Function Processing in PostgreSQL**
-
-https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUPING-SETS
-
-**6.Crosstab for Pivot Table in PostgreSQL**
-https://www.postgresql.org/docs/14/tablefunc.html
+[**7.Crosstab for Pivot Table in PostgreSQL**](https://www.postgresql.org/docs/14/tablefunc.html)
