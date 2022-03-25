@@ -1,4 +1,4 @@
-# **Hands-on Session 1: OLAP Analysis and DW&BI Demo System With PostgreSQL and Penhato**
+# **Hands-on Session 1: OLAP Analysis and DW&BI Project With PostgreSQL and Pentaho**
 **This repository contains the instructions of the first hands-on session in our DW&BI course.**
 
 ## **Recorded Video Links**
@@ -31,14 +31,14 @@ https://www.postgresqltutorial.com/install-postgresql-macos/
 - 2.3 Pentaho Schema Workbench (PSW)
 
 Please refer to the two pdf documents about downloading and installing Pentaho software in the Installation Guide folder:
-- Pentaho Installation Guide.pdf
-- Pentaho Installation Problems.pdf
+- [Pentaho Installation Guide.pdf](https://github.com/ZhengtongYan/Hands-on-Session-1-of-DW-BI-Course/blob/main/Installation%20Guide/Pentaho%20Installation%20Guide.pdf)
+- [Pentaho Installation Problems.pdf](https://github.com/ZhengtongYan/Hands-on-Session-1-of-DW-BI-Course/blob/main/Installation%20Guide/Pentaho%20Installation%20Problems.pdf)
 
 
 
 ## **Exercises (20 points)**
 
-Use the sales dataset in this project. You can download the data files form the Data Source folder. the same example dataset to complete the following exercises.
+Download the data files from the Data Source folder and use them to complete the following exercises.
 
 ### **Part1: DW&BI project with Pentaho (10 points)**
  
@@ -99,20 +99,20 @@ https://en.wikipedia.org/wiki/MultiDimensional_eXpressions
 
 **3. OLAP Analysis and Results Reporting**
 
-(1) Use the Saiku analytics tool to create a analysis report using the OLAP cube created in the previous step. **(0.5 points)**
+(1) Use the Saiku Analytics tool to create an analysis report using the OLAP cube created in the previous step. **(0.5 points)**
 
 (2) Then, create a report to visualize the analysis results with charts (e.g., line chart, pie chart, and bar chart). **(0.5 points)**
 
 
 
 ### **Part2: OLAP analysis with SQL query (Total: 10 points)**
-In Part 1, we focus on how to building a DW&BI application with PostgreSQL and Pentaho using the MOLAP model. In part 2, we will utilize a different approach to conduct the OLAP analysis only with PostgreSQL on the start schema.
+In Part 1, we focus on how to building a DW&BI application with PostgreSQL and Pentaho using the MOLAP model. In part 2, we will utilize a different approach to conduct the OLAP analysis only with PostgreSQL on the star schema.
 
 **1. Full Star Join** 
 
 Create a full star join by joining the fact table and dimension tables.
 
-(1) Please use three differnet syntax for join operation **(1.5 points)**
+(1) Please use three different syntax for join operation **(0.5 points)**
 
 - WHERE clause, e.g., WHERE T1.id=T2.id
 - INNER JOIN operation, e.g., T1 INNER JOIN T2 ON (T1.id=T2.id)
@@ -131,7 +131,7 @@ Please use two different methods:
 
 **3.Cube Creation**
 
-(1) Build a OLAP cube for *sales_year* (in date_dim table) and *product_status* (in product_dim table) dimensions to calculate the total amount. **(1 point)**
+(1) Build an OLAP cube for *sales_year* (in date_dim table) and *product_status* (in product_dim table) dimensions to calculate the total amount. **(1 point)**
 
 (2) How many combinations of the two dimension attributes are created in the cube? Based on these combinantions of dimension attributes, create the same OLAP cube using UNION function instead of using CUBE keywords. **(1 point)**
 
@@ -148,29 +148,29 @@ First, calculate the total dollars sold per city of USA and per month in 2006. T
 - [**Pivot table in Wikipedia**](https://en.wikipedia.org/wiki/Pivot_table)
 
 
-**5.Roll-up Operation (0.5 point)**
+**5.Roll-up Operation (1 point)**
 
-(1) Build a OLAP cube for month, city, and product category dimensions to calculate the total amount.
+(1) Build an OLAP cube for month, city, and product category dimensions to calculate the total amount.
 
 (2) Roll up the results on month and city.
 
-**6.Drill-down Operation(0.5 point)**
+**6.Drill-down Operation(1 point)**
 
-(1) Build a OLAP cube for year, promotion name, and product category dimensions to calculate the total amount.
+(1) Build an OLAP cube for year, promotion name, and product category dimensions to calculate the total amount.
 
 (2) Drill down the results on year and product category.
 
 
 **7.Slice Operation (0.5 point)**
 
-(1) Build a OLAP cube for salesrep, quarter, and product category dimensions to calculate the total amount.
+(1) Build an OLAP cube for salesrep, quarter, and product category dimensions to calculate the total amount.
 
 (2) Slicing the data cube on the first quarter in 2006.
 
 
 **8.Dice Operation (0.5 point)**
 
-(1) Build a OLAP cube for promotion name, city, and month dimensions to calculate the total amount.
+(1) Build an OLAP cube for promotion name, city, and month dimensions to calculate the total amount.
 
 (2) Dicing the data cube in two dimensions: city (Madison and Indianapolis) and month (January and Novemeber).
 
@@ -180,6 +180,7 @@ First, calculate the total dollars sold per city of USA and per month in 2006. T
 - Please show the star schema figure and give 10 rows of each table. 
 - Post the queries and demonstrate the results.
 - Please upload all the results in a single PDF file and then compress all the files into a zip file.
+- Please submit to Moodle page and the deadline is **April 14th, 2022**.
 
 
 ## **Some Useful Links**
