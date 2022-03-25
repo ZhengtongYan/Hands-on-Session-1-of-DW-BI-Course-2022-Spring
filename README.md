@@ -111,7 +111,7 @@ Create a full star join by joining the fact table and dimension tables.
 (1) Please use three differnet syntax for join operation **(1.5 points)**
 
 - WHERE clause, e.g., WHERE T1.id=T2.id
-- INNER JOIN operation, e.g., T1 INNER JOIN T2 ON ( T1.id=T2.id)
+- INNER JOIN operation, e.g., T1 INNER JOIN T2 ON (T1.id=T2.id)
 - USING keyword, e.g., T1 INNER JOIN T2 USING (id)
 
 (2) What are the surrogate key and business key in those tables? Why use the surrogate key in star schema? **(0.5 points)**
