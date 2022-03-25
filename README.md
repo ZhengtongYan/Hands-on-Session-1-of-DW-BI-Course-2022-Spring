@@ -101,13 +101,6 @@ Then, create a report to visualize the analysis results with charts (e.g., line 
 
 
 
-**Submission Requirements**: 
-- Please upload all the files of ETL processing, OLAP cube generation.
-- Please show the star schema figure and give 10 rows of each table. 
-- Post the MDX queries and demonstrate the results
-- Please upload all the results in a single PDF file and then compress all the files into a zip file.
-
-
 ### **Part2: OLAP analysis with SQL query (Total: 12 points)**
 In Part 1, we focus on how to building a DW&BI application with PostgreSQL and Pentaho using the MOALP model. In part 2, we will utilize a different approach to conduct the OALP analysis with a realtional databases, which is called as ROLAP modeling method.
 
@@ -172,6 +165,12 @@ Please use two different methods:
 
 (2) Dicing the data cube in two dimensions: city (Madison and Indianapolis) and month (January and Novemeber).
 
+
+## **Submission Requirements**: 
+- Please upload all the files of ETL processing, OLAP cube generation, etc.
+- Please show the star schema figure and give 10 rows of each table. 
+- Post the queries and demonstrate the results.
+- Please upload all the results in a single PDF file and then compress all the files into a zip file.
 
 
 ## **Some Useful Links**
