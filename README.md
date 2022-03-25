@@ -1,4 +1,4 @@
-# **Hands-on Session 1: OLAP Analysis and DW&BI Project With PostgreSQL and Pentaho**
+# **Hands-on Session 1: DW&BI Project and OLAP Analysis With PostgreSQL and Pentaho**
 **This repository contains the instructions of the first hands-on session in our DW&BI course.**
 
 ## **Recorded Video Links**
@@ -34,13 +34,24 @@ Please refer to the two pdf documents about downloading and installing Pentaho s
 - [Pentaho Installation Guide.pdf](https://github.com/ZhengtongYan/Hands-on-Session-1-of-DW-BI-Course/blob/main/Installation%20Guide/Pentaho%20Installation%20Guide.pdf)
 - [Pentaho Installation Problems.pdf](https://github.com/ZhengtongYan/Hands-on-Session-1-of-DW-BI-Course/blob/main/Installation%20Guide/Pentaho%20Installation%20Problems.pdf)
 
+**Many students said that they have problems with installing and running the PDI software in macOS. You can refer to the following articles if you use macOS:**
+- [How I setup my Pentaho Data Integration (PDI) and solving the problem on running it on Mac OSX Catalina 10.15.4](https://medium.com/@gembit.soultan/how-i-setup-my-pentaho-data-integration-pdi-and-solving-the-problem-on-running-it-on-mac-osx-6f0cc7f3b97c)
+- [ETL Tool: Install pentaho 9.0 on mac (2020)](https://gingkolane.medium.com/install-pentaho8-3-on-mac-on-2-1-2020-69ca6e7b24c5)
+- [Pentaho Data Integration not starting on new Mac M1](https://stackoverflow.com/questions/67972804/pentaho-data-integration-not-starting-on-new-mac-m1)
+
 
 
 ## **Exercises (20 points)**
 
-Download the data files from the Data Source folder and use them to complete the following exercises.
+Download the following data files from the [Data_Sources](https://github.com/ZhengtongYan/Hands-on-Session-1-of-DW-BI-Course/tree/main/Data_Sources) folder and use them to complete the exercises.
 
-### **Part1: DW&BI project with Pentaho (10 points)**
+- **customers_export.csv** - Customers information 
+- **products_export.csv** - Products information
+- **promotions_export.csv** - Promotions information
+- **salesrep_export.csv** -  Employees (sales representatives) information
+- **orders_export.csv**	 - Order items information
+
+### **Part1: DW&BI Project with Pentaho (10 points)**
  
 **1.ETL processing**
 
