@@ -90,7 +90,7 @@ https://en.wikipedia.org/wiki/Slowly_changing_dimension
 
 
 **Tips:**
- Please refer to the wikipedia page about MDX query language
+ Please refer to the wikipedia page about MDX query language:
 https://en.wikipedia.org/wiki/MultiDimensional_eXpressions
 
 **3. OLAP Analysis and Results Reporting**
@@ -140,6 +140,10 @@ Please use two different methods:
 
 (2) Then, use the crosstab function to create a pivot table view to show the results.
 
+**Tips:** Please refer to the documentaion about crosstab function and pivot table:
+
+- [**Crosstab for Pivot Table in PostgreSQL**](https://www.postgresql.org/docs/14/tablefunc.html)
+- [**Pivot table in Wikipedia**](https://en.wikipedia.org/wiki/Pivot_table)
 
 
 **5.Roll-up Operation (1 point)**
@@ -189,4 +193,5 @@ Please use two different methods:
 
 [**6. GROUPING SETS, CUBE, ROLLUP, and Window Function in PostgreSQL**](https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUPING-SETS)
 
-[**7.Crosstab for Pivot Table in PostgreSQL**](https://www.postgresql.org/docs/14/tablefunc.html)
+
+
