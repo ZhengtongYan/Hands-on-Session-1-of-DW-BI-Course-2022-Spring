@@ -1,5 +1,11 @@
-# **Hands-on Session 1: DW&BI Demo System With PostgreSQL and Penhato**
+# **Hands-on Session 1: OLAP Analysis and DW&BI Demo System With PostgreSQL and Penhato**
 **This repository contains the instructions of the first hands-on session in our DW&BI course.**
+
+## **Recorded Video Links**
+- [Software Installation Guide for Hands-on Session 1 of DW&BI Course](https://www.youtube.com/watch?v=--afzrAZjyc)
+- [Hands-on Session 1 of Data Warehousing and Business Intelligence Course](https://www.youtube.com/watch?v=6YB-arWROGQ)
+
+
 
 ## **Learning Objectives**
 Gain hands-on experience in building a DW&BI project and conducting OLAP analysis using PostgreSQL and Pentaho.
@@ -28,21 +34,19 @@ Please refer to the two pdf documents about downloading and installing Pentaho s
 - Pentaho Installation Guide.pdf
 - Pentaho Installation Problems.pdf
 
-I have recorded a video to introduce how to download and install the software: https://www.youtube.com/watch?v=--afzrAZjyc
-
 
 
 ## **Exercises (20 points)**
 
 Use the sales dataset in this project. You can download the data files form the Data Source folder. the same example dataset to complete the following exercises.
 
-### **Part1: DW&BI project with Pentaho (8 points)**
+### **Part1: DW&BI project with Pentaho (10 points)**
  
 **1.ETL processing**
 
 Use PDI to create a star schema and store the tables (fact and dimension tables) in PostgreSQL
 
-(1) Create a star schema and then output these tables in PostgreSQL. **(2 points)**
+(1) Create a star schema and then output these tables in PostgreSQL. **(4 points)**
 
 The star schema includes:
  - a fact table (*sales_fact*) 
@@ -101,7 +105,7 @@ https://en.wikipedia.org/wiki/MultiDimensional_eXpressions
 
 
 
-### **Part2: OLAP analysis with SQL query (Total: 12 points)**
+### **Part2: OLAP analysis with SQL query (Total: 10 points)**
 In Part 1, we focus on how to building a DW&BI application with PostgreSQL and Pentaho using the MOLAP model. In part 2, we will utilize a different approach to conduct the OLAP analysis only with PostgreSQL on the start schema.
 
 **1. Full Star Join** 
@@ -136,9 +140,7 @@ Please use two different methods:
 
 **4.Pivot Table (1 point)**
 
-(1) First, calculate the total dollars sold per city of USA and per month in 2006. 
-
-(2) Then, use the crosstab function to create a pivot table view to show the results.
+First, calculate the total dollars sold per city of USA and per month in 2006. Then, use the crosstab function to create a pivot table view to show the results.
 
 **Tips:** Please refer to the documentaion about crosstab function and pivot table:
 
@@ -146,27 +148,27 @@ Please use two different methods:
 - [**Pivot table in Wikipedia**](https://en.wikipedia.org/wiki/Pivot_table)
 
 
-**5.Roll-up Operation (1 point)**
+**5.Roll-up Operation (0.5 point)**
 
 (1) Build a OLAP cube for month, city, and product category dimensions to calculate the total amount.
 
 (2) Roll up the results on month and city.
 
-**6.Drill-down Operation(1 point)**
+**6.Drill-down Operation(0.5 point)**
 
 (1) Build a OLAP cube for year, promotion name, and product category dimensions to calculate the total amount.
 
 (2) Drill down the results on year and product category.
 
 
-**7.Slice Operation (1 point)**
+**7.Slice Operation (0.5 point)**
 
 (1) Build a OLAP cube for salesrep, quarter, and product category dimensions to calculate the total amount.
 
 (2) Slicing the data cube on the first quarter in 2006.
 
 
-**8.Dice Operation (1 point)**
+**8.Dice Operation (0.5 point)**
 
 (1) Build a OLAP cube for promotion name, city, and month dimensions to calculate the total amount.
 
@@ -192,6 +194,4 @@ Please use two different methods:
 [**5. Using Pentaho Schema Workbench**](https://www.youtube.com/watch?v=Tqw3oOk5jsM&list=PLIS-R80eiu1snl5wW893-BLiE0yDVhQAe)
 
 [**6. GROUPING SETS, CUBE, ROLLUP, and Window Function in PostgreSQL**](https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUPING-SETS)
-
-
 
