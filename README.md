@@ -146,7 +146,7 @@ Please use two different methods:
 
 (2) How many combinations of the two dimension attributes are created in the cube? Based on these combinantions of dimension attributes, create the same OLAP cube using UNION function instead of using CUBE keywords. **(1 point)**
 
-(3) Replace the CUBE keywords to ROLLUP and GROUPING SET, compare and exaplain the results? **(1 points)** 
+(3) Replace the CUBE keywords to ROLLUP and GROUPING SETS, compare and exaplain these results? **(1 points)** 
 
 
 **4.Pivot Table (1 point)**
