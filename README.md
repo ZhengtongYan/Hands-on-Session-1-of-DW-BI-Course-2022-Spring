@@ -97,13 +97,10 @@ https://en.wikipedia.org/wiki/Slowly_changing_dimension
 
 
 
-**2.OLAP Cube Generation and MDX Query**
+**2.OLAP Cube Generation**
 
-Use Pentaho Schema Workbench to generate an OLAP cube based on the star schema created in the previous step. This cube should be created on two measures in the five dimension tables. And you should create hierarchies (e.g., year-month-day) on the dimensions. **(2 points)**
+Use Pentaho Schema Workbench to generate an OLAP cube based on the star schema created in the previous step. This cube should be created on two measures in the five dimension tables. You should create some hierarchies (e.g., year-month-day) on the dimensions. Finally, publish the cube into Pentaho server for further analysis. **(2 points)**
 
-**Tips:**
- Please refer to the wikipedia page about MDX query language:
-https://en.wikipedia.org/wiki/MultiDimensional_eXpressions
 
 **3. OLAP Analysis and Results Reporting**
 
