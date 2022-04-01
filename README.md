@@ -130,11 +130,11 @@ Create a full star join by joining the fact table and dimension tables.
 
 **2. Top-N Query**
 
-Find the top-3 customers who come from USA and spend the highest amount of money in the year of 2006.
+Find the top-3 customers who come from USA and spend the highest amount of money in the year of 2006. Return the customer_id and total amount of money. 
 
 Please use two different methods:
 - Use GROUP BY, ORDER BY, and LIMIT Operators **(1 point)**
-- Use windows function (e.g., RANK) **(1 point)**
+- Use windows function **(1 point)**
 
 **3.Cube Creation**
 
@@ -159,25 +159,25 @@ First, calculate the total dollars sold per city of USA and per month in 2006. T
 
 (1) Build an OLAP cube for month, city, and product category dimensions to calculate the total amount.
 
-(2) Roll up the results on month and city.
+(2) Roll up the results on month (to year) and product category (to parent category) dimension.
 
 **6.Drill-down Operation(1 point)**
 
-(1) Build an OLAP cube for year, promotion name, and product category dimensions to calculate the total amount.
+(1) Build an OLAP cube for country, promotion name, and product category dimensions to calculate the total amount.
 
-(2) Drill down the results on year and product category.
+(2) Drill down the results on country (to city) and product category (to sub-category) dimension.
 
 
 **7.Slice Operation (1 point)**
 
-(1) Build an OLAP cube for salesrep, quarter, and product category dimensions to calculate the total amount.
+(1) Build an OLAP cube for salesrep's department, quarter, and product category dimensions to calculate the total dollars sold.
 
 (2) Slicing the data cube on the first quarter in 2006.
 
 
 **8.Dice Operation (1 point)**
 
-(1) Build an OLAP cube for promotion name, city, and month dimensions to calculate the total amount.
+(1) Build an OLAP cube for promotion name, city, and month dimensions to calculate the total dollars sold.
 
 (2) Dicing the data cube in two dimensions: city (Madison and Indianapolis) and month (January and Novemeber).
 
