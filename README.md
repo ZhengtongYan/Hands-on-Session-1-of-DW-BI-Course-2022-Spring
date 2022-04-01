@@ -77,7 +77,9 @@ Please embellish the Date Dimension with the following date attributes:
 
 
 
-**Tips:** Create individual transformation for each table, and create a job to execute all the transformations with condition checks and validations (e.g., check whether the file exists)
+**Tip 1:** Create individual transformation for each table, and create a job to execute all the transformations with condition checks and validations (e.g., check whether the file exists)
+
+**Tip 2:** For the creation of *sales_week_of _quarter* dimension, one possible way is to add a "Formula" step (in the "Scripting" folder) after the "Calculate Additional Fields". You can use "sales_week_of_year" field to calculate the new "sales_week_of_year" field.
 
 (2) Discover different slowly changing dimension (SCD) types. **(2 points)**
 
