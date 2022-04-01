@@ -51,7 +51,7 @@ Download the following data files from the [Data_Sources](https://github.com/Zhe
 - **salesrep_export.csv** -  Employees (sales representatives) information
 - **orders_export.csv**	 - Order items information
 
-### **Part1: DW&BI Project with Pentaho (10 points)**
+### **Part1: DW&BI Project with Pentaho (9 points)**
  
 **1.ETL processing**
 
@@ -99,13 +99,7 @@ https://en.wikipedia.org/wiki/Slowly_changing_dimension
 
 **2.OLAP Cube Generation and MDX Query**
 
-(1) Use Pentaho Schema Workbench to generate an OLAP cube based on the star schema created in the previous step. This cube should be created on two measures in the five dimension tables. And you should create hierarchies (e.g., year-month-day) on the dimensions. **(2 points)**
-
-
-(2) Execute MDX queries in Schema Workbench to analyze the OLAP cube **(1 point)**
-- Search the two measures of in the date and customer dimensions with dimensional hierarchies, including year-month-day hierarchy in date_dim and country-city hierarchy in customer_dim. 
-- Search the two measures of each product_id in each month of 2006. 
-
+Use Pentaho Schema Workbench to generate an OLAP cube based on the star schema created in the previous step. This cube should be created on two measures in the five dimension tables. And you should create hierarchies (e.g., year-month-day) on the dimensions. **(2 points)**
 
 **Tips:**
  Please refer to the wikipedia page about MDX query language:
@@ -119,7 +113,7 @@ https://en.wikipedia.org/wiki/MultiDimensional_eXpressions
 
 
 
-### **Part2: OLAP analysis with SQL query (Total: 10 points)**
+### **Part2: OLAP analysis with SQL query (Total: 11 points)**
 In Part 1, we focus on how to building a DW&BI application with PostgreSQL and Pentaho using the MOLAP model. In part 2, we will utilize a different approach to conduct the OLAP analysis only with PostgreSQL on the star schema.
 
 **1. Full Star Join** 
@@ -175,14 +169,14 @@ First, calculate the total dollars sold per city of USA and per month in 2006. T
 (2) Drill down the results on year and product category.
 
 
-**7.Slice Operation (0.5 point)**
+**7.Slice Operation (1 point)**
 
 (1) Build an OLAP cube for salesrep, quarter, and product category dimensions to calculate the total amount.
 
 (2) Slicing the data cube on the first quarter in 2006.
 
 
-**8.Dice Operation (0.5 point)**
+**8.Dice Operation (1 point)**
 
 (1) Build an OLAP cube for promotion name, city, and month dimensions to calculate the total amount.
 
