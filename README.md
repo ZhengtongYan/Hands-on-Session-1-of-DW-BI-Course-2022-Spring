@@ -80,13 +80,16 @@ Please embellish the Date Dimension with the following date attributes:
 **Tips:** Create individual transformation for each table, and create a job to execute all the transformations with condition checks and validations (e.g., check whether the file exists)
 
 (2) Discover different slowly changing dimension (SCD) types. **(2 points)**
-- Open up the customers_export.csv file
-- Find customer 146 Elia Fawcett and change her address from "8989 N Port Washington Rd" to "8990 S Port Washington Rd";
-- Add a new customer Jim Green with the following information:
-"788,Jim,Green,198 Fairlawn Ln.,55401,Minneapolis,MN,US,United States of America,2,us,AMERICA,1100,samuel.green@someexample.host.com,+1 443 512 1121,,145,2001,8307,-93.26806,44.984747"
-- Re-run the transformation.
 
-Show the different results of customer_dim table when using SCD1 and SCD2, and explain the use cases of those two types. 
+In the "dimension lookup/update" step, you can set different SCD types to handle the future changes with different ways in the dimension tables. The default type of dimension update is "Insert", i.e., SCD type 2.  
+- Step 1: Open the customers_export.csv file;
+- Step 2: Find customer 146 Elia Fawcett and change her address from "8989 N Port Washington Rd" to "8990 S Port Washington Rd";
+- Step 3: Re-run the transformation, see what happens in the dimension table;
+- Step 4: Clear the customer_dim table, and restore the changes in the customers_export.csv file;
+- Step 5: Change the type of dimension update from "Insert" to "Punch through' (i.e., SCD type 1);
+- Step 6: Repeat step 1 to step 3.
+  
+Compare the different results of customer_dim table when using SCD type 1 and SCD type 2, and explain the use cases of those two types. 
 
 
 **Tips**: You may refer to the following wikipedia page about SCD types:
