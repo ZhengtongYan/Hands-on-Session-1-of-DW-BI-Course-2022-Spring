@@ -3,8 +3,8 @@
 
 ## **Recorded Video Links**
 - [Software Installation Guide for Hands-on Session 1 of DW&BI Course](https://www.youtube.com/watch?v=--afzrAZjyc)
-- [Hands-on Session 1 of Data Warehousing and Business Intelligence Course](https://www.youtube.com/watch?v=6YB-arWROGQ)
-
+- [Hands-on Session 1 of Data Warehousing and Business Intelligence Course (Part 1)](https://www.youtube.com/watch?v=6YB-arWROGQ)
+- [Hands-on Session 1 of Data Warehousing and Business Intelligence Course (Part 1)](https://www.youtube.com/watch?v=ndRR0tN5LqI)
 
 
 ## **Learning Objectives**
