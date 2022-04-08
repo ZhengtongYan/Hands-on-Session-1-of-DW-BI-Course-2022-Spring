@@ -138,11 +138,12 @@ Please use two different methods:
 
 **3.Cube Creation**
 
-(1) Build an OLAP cube for *sales_year* (in date_dim table) and *product_status* (in product_dim table) dimensions to calculate the total amount. **(1 point)**
+(1) Build an OLAP cube for *sales_year* (in date_dim table) and *product_status* (in product_dim table) dimensions to calculate the total amount. Sort the resluts by sales_year and product_status with in **ascending order**. **(1 point)**
 
-(2) How many combinations of the two dimension attributes are created in the cube? Based on these combinantions of dimension attributes, create the same OLAP cube using UNION function instead of using CUBE keywords. **(1 point)**
+(2) How many combinations of the two dimension attributes are created in the cube? Based on these combinantions of dimension attributes, create the same OLAP cube onlu using **UNION** and **GROUP BY** keywords instead of using CUBE keyword. Comapre and ensure that you can get the same results of using CUBE keyword. Sort the resluts by sales_year and product_status with in **ascending order** **(1 point)**
+ 
 
-(3) Replace the CUBE keywords to ROLLUP and GROUPING SETS, compare and exaplain these results? **(1 points)** 
+(3) Replace the CUBE keyword with ROLLUP and GROUPING SETS keywords respectively, compare and exaplain these results? **(1 points)** 
 
 
 **4.Pivot Table (1 point)**
@@ -157,15 +158,21 @@ First, calculate the total dollars sold per city of USA and per month in 2006. T
 
 **5.Roll-up Operation (1 point)**
 
-(1) Build an OLAP cube for month, city, and product category dimensions to calculate the total amount.
+(1) Build an OLAP cube to calculate the total amount per month, per year, per city, per product category, and per parent category.
 
-(2) Roll up the results on month (to year) and product category (to parent category) dimension.
+(2) Roll up the results on two dimensions: first roll-up from month to year and second roll-up from product category to parent category.
+
+**Tips**: Roll-up means that you need to remove some attribute in the GROUP BY clause.
+
+**Notice:**: Here the *roll-up operation* is a kind of OLAP operation which is not same the the *ROLLUP function* in SQL.
 
 **6.Drill-down Operation(1 point)**
 
-(1) Build an OLAP cube for country, promotion name, and product category dimensions to calculate the total amount.
+(1) Build an OLAP cube to calculate the total amount per country, per promotion name, and per product category.
 
-(2) Drill down the results on country (to city) and product category (to sub-category) dimension.
+(2) Drill down the results on two dimensions: first drill-down from country to city and second drill-down from product category to sub-category.
+
+**Tips**: Drill-down means that you want to obtain more details on some dimensions, so you need to add some attribute in the GROUP BY clause.
 
 
 **7.Slice Operation (1 point)**
