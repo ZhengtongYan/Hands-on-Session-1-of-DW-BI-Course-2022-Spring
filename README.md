@@ -140,7 +140,7 @@ Please use two different methods:
 
 (1) Build an OLAP cube for *sales_year* (in date_dim table) and *product_status* (in product_dim table) dimensions to calculate the total amount. Sort the resluts by sales_year and product_status in **ascending orders**. **(1 point)**
 
-(2) How many combinations of the two dimension attributes are created in the cube? Based on these combinantions of dimension attributes, create the same OLAP cube onlu using **UNION** and **GROUP BY** keywords instead of using CUBE keyword. Comapre and ensure that you can get the same results of using CUBE keyword. Sort the resluts by sales_year and product_status in **ascending orders** **(1 point)**
+(2) How many combinations of the two dimensional attributes are created in the cube? Based on these combinantions of dimensional attributes, create the same OLAP cube with **UNION** and **GROUP BY** keywords instead of **CUBE** keyword. Comapre and ensure that you can get the same results of using CUBE keyword. Sort the resluts by sales_year and product_status in **ascending orders.** **(1 point)**
  
 
 (3) Replace the CUBE keyword with ROLLUP and GROUPING SETS keywords respectively, compare and exaplain these results? **(1 points)** 
