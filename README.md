@@ -138,9 +138,9 @@ Please use two different methods:
 
 **3.Cube Creation**
 
-(1) Build an OLAP cube for *sales_year* (in date_dim table) and *product_status* (in product_dim table) dimensions to calculate the total amount. Sort the resluts by sales_year and product_status with in **ascending order**. **(1 point)**
+(1) Build an OLAP cube for *sales_year* (in date_dim table) and *product_status* (in product_dim table) dimensions to calculate the total amount. Sort the resluts by sales_year and product_status in **ascending orders**. **(1 point)**
 
-(2) How many combinations of the two dimension attributes are created in the cube? Based on these combinantions of dimension attributes, create the same OLAP cube onlu using **UNION** and **GROUP BY** keywords instead of using CUBE keyword. Comapre and ensure that you can get the same results of using CUBE keyword. Sort the resluts by sales_year and product_status with in **ascending order** **(1 point)**
+(2) How many combinations of the two dimension attributes are created in the cube? Based on these combinantions of dimension attributes, create the same OLAP cube onlu using **UNION** and **GROUP BY** keywords instead of using CUBE keyword. Comapre and ensure that you can get the same results of using CUBE keyword. Sort the resluts by sales_year and product_status in **ascending orders** **(1 point)**
  
 
 (3) Replace the CUBE keyword with ROLLUP and GROUPING SETS keywords respectively, compare and exaplain these results? **(1 points)** 
@@ -148,7 +148,7 @@ Please use two different methods:
 
 **4.Pivot Table (1 point)**
 
-First, calculate the total dollars sold per city of USA and per month in 2006. Then, use the crosstab function to create a pivot table view to show the results.
+First, calculate the total dollars sold per city of USA and per month in 2006. Then, use the crosstab function to create a pivot table view to show the results. 
 
 **Tips:** Please refer to the documentaion about crosstab function and pivot table:
 
@@ -159,34 +159,35 @@ First, calculate the total dollars sold per city of USA and per month in 2006. T
 **5.Roll-up Operation (1 point)**
 
 (1) Build an OLAP cube to calculate the total amount per month, per year, per city, per product category, and per parent category.
+Please sort the results in **ascending orders** on each dimension.
 
-(2) Roll up the results on two dimensions: first roll-up from month to year and second roll-up from product category to parent category.
+(2) Roll up the results on two dimensions: roll-up from month to year and roll-up from product category to parent category. Please sort the results in **ascending orders** on each dimension.
 
-**Tips**: Roll-up means that you need to remove some attribute in the GROUP BY clause.
+**Tips**: Roll-up means that you need to remove some attributes in the GROUP BY clause.
 
-**Notice:**: Here the *roll-up operation* is a kind of OLAP operation which is not same the the *ROLLUP function* in SQL.
+**Notice:** Here the *roll-up operation* is a kind of OLAP operation which is not the same as the *ROLLUP function* in SQL.
 
 **6.Drill-down Operation(1 point)**
 
-(1) Build an OLAP cube to calculate the total amount per country, per promotion name, and per product category.
+(1) Build an OLAP cube to calculate the total amount per country, per promotion name, and per product category. Please sort the results in **ascending orders** on each dimension.
 
-(2) Drill down the results on two dimensions: first drill-down from country to city and second drill-down from product category to sub-category.
+(2) Drill down the results on two dimensions: drill-down from country to city and drill-down from product category to sub-category. Please sort the results in **ascending orders** on each dimension.
 
-**Tips**: Drill-down means that you want to obtain more details on some dimensions, so you need to add some attribute in the GROUP BY clause.
+**Tips**: Drill-down means that you want to obtain more details on some dimensions, so you need to add some attributes in the GROUP BY clause.
 
 
 **7.Slice Operation (1 point)**
 
-(1) Build an OLAP cube for salesrep's department, quarter, and product category dimensions to calculate the total dollars sold.
+(1) Build an OLAP cube for salesrep's department, quarter, and product category dimensions to calculate the total dollars sold. Please sort the results in **ascending orders** on each dimension.
 
-(2) Slicing the data cube on the first quarter in 2006.
+(2) Slicing the data cube on the first quarter in 2006. Please sort the results in **ascending orders** on each dimension.
 
 
 **8.Dice Operation (1 point)**
 
-(1) Build an OLAP cube for promotion name, city, and month dimensions to calculate the total dollars sold.
+(1) Build an OLAP cube for promotion name, city, and month dimensions to calculate the total dollars sold. Please the results sort in **ascending orders** on each dimension.
 
-(2) Dicing the data cube in two dimensions: city (Madison and Indianapolis) and month (January and Novemeber).
+(2) Dicing the data cube in two dimensions: city (Madison and Indianapolis) and month (January and Novemeber). Please sort the result in **ascending orders** on each dimension.
 
 
 ## **Submission Requirements**: 
